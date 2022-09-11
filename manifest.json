@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Demo Extention",
+    "version": "1.0.1",
+    "description": "Made by Floris Melchers. Shortcut: Ctrl+Shift+K",
+    "author": "Floris Melchers",
+    "action": {
+      "default_icon": "Agency-6-logo.png",
+      "default_popup": "index.html"
+     },
+      "permissions": [
+        "contextMenus",
+		    "notifications",
+		    "storage",
+        "webNavigation",
+        "scripting"
+        ],
+        "background": {
+          "service_worker": "background.js"
+      },
+        "commands": {
+          "_execute_action": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+K",
+              "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Opens index.html"
+          }
+        }
+  }

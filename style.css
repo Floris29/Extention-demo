@@ -1,0 +1,26 @@
+.header{
+    padding: 70px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.header{
+    background-image: url("Agency-6-logo.png");
+}
+
+.button1{
+        align-items: left;
+        background-color: blue;
+        color: white;
+        border: 2px solid blue;
+}
+
+.button2{
+    color: red;
+}
+
+.iframe{
+    width: 100%;
+    height: 300;
+}
